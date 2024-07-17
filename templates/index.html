@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/danfojs@0.4.0/lib/bundle.min.js"></script>
+    <title>Natural Language to SQL</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Natural Language to SQL</h1>
+        <textarea id="prompt" placeholder="Enter your natural language query here..."></textarea>
+        <button onclick="sendPrompt()">Submit</button>
+        <pre id="output"></pre>
+
+        <table id="result">
+
+        </table>
+    </div>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
